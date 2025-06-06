@@ -1,4 +1,15 @@
 arxiv
 gtts
 google-genai
-pydantic 
+pydantic
+psutil
+pyyaml
+aiohttp
+aiofiles
+tenacity
+rich
+sqlalchemy
+alembic
+pytest
+pytest-asyncio
+pytest-cov

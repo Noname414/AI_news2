@@ -1,0 +1,46 @@
+2025-06-06 16:47:03,504 - ai_news_updater - INFO - AI 新聞更新器 v2.0.0 啟動
+2025-06-06 16:47:03,513 - ai_news_updater - INFO - 開始抓取查詢: AI
+2025-06-06 16:47:05,739 - ai_news_updater - INFO - 查詢 AI 完成，抓取到 3 篇新論文
+2025-06-06 16:47:05,739 - ai_news_updater - INFO - 開始抓取查詢: Foundation Model
+2025-06-06 16:47:08,766 - ai_news_updater - INFO - 查詢 Foundation Model 完成，抓取到 3 篇新論文
+2025-06-06 16:47:08,767 - ai_news_updater - INFO - 開始抓取查詢: Diffusion Model
+2025-06-06 16:47:11,186 - ai_news_updater - INFO - 查詢 Diffusion Model 完成，抓取到 3 篇新論文
+2025-06-06 16:47:11,186 - ai_news_updater - INFO - 開始抓取查詢: Large Language Model
+2025-06-06 16:47:13,559 - ai_news_updater - INFO - 查詢 Large Language Model 完成，抓取到 3 篇新論文
+2025-06-06 16:47:13,559 - ai_news_updater - INFO - 開始抓取查詢: Computer Vision
+2025-06-06 16:47:16,288 - ai_news_updater - INFO - 查詢 Computer Vision 完成，抓取到 3 篇新論文
+2025-06-06 16:47:16,290 - ai_news_updater - INFO - 總共抓取到 15 篇新論文
+2025-06-06 16:47:20,539 - ai_news_updater - INFO - 論文 2506.05231v1 翻譯完成
+2025-06-06 16:47:21,212 - ai_news_updater - INFO - 論文 2506.05350v1 翻譯完成
+2025-06-06 16:47:21,398 - ai_news_updater - INFO - 論文 2506.05348v1 翻譯完成
+2025-06-06 16:47:21,745 - ai_news_updater - INFO - 論文 2506.05341v1 翻譯完成
+2025-06-06 16:47:23,406 - ai_news_updater - INFO - 論文 2506.05333v1 翻譯完成
+2025-06-06 16:47:31,963 - ai_news_updater - INFO - 論文 2506.05231v1 音訊生成完成
+2025-06-06 16:47:32,112 - ai_news_updater - INFO - 論文 2506.05348v1 音訊生成完成
+2025-06-06 16:47:33,260 - ai_news_updater - INFO - 論文 2506.05350v1 音訊生成完成
+2025-06-06 16:47:34,932 - ai_news_updater - INFO - 論文 2506.05341v1 音訊生成完成
+2025-06-06 16:47:36,982 - ai_news_updater - INFO - 論文 2506.05210v1 翻譯完成
+2025-06-06 16:47:38,080 - ai_news_updater - INFO - 論文 2506.05334v1 翻譯完成
+2025-06-06 16:47:38,945 - ai_news_updater - INFO - 論文 2506.05350v1 翻譯完成
+2025-06-06 16:47:39,162 - ai_news_updater - INFO - 論文 2506.05263v1 翻譯完成
+2025-06-06 16:47:41,037 - ai_news_updater - INFO - 論文 2506.05333v1 音訊生成完成
+2025-06-06 16:47:46,411 - ai_news_updater - INFO - 論文 2506.05346v1 翻譯完成
+2025-06-06 16:47:46,501 - ai_news_updater - INFO - 論文 2506.05210v1 音訊生成完成
+2025-06-06 16:47:49,541 - ai_news_updater - INFO - 論文 2506.05263v1 音訊生成完成
+2025-06-06 16:47:51,564 - ai_news_updater - INFO - 論文 2506.05350v1 音訊生成完成
+2025-06-06 16:47:52,324 - ai_news_updater - INFO - 論文 2506.05341v1 翻譯完成
+2025-06-06 16:47:52,631 - ai_news_updater - INFO - 論文 2506.05334v1 音訊生成完成
+2025-06-06 16:47:54,406 - ai_news_updater - INFO - 論文 2506.05321v1 翻譯完成
+2025-06-06 16:47:56,965 - ai_news_updater - INFO - 論文 2506.05349v1 翻譯完成
+2025-06-06 16:47:57,047 - ai_news_updater - INFO - 論文 2506.05346v1 音訊生成完成
+2025-06-06 16:47:58,134 - ai_news_updater - INFO - 論文 2506.05344v1 翻譯完成
+2025-06-06 16:48:02,331 - ai_news_updater - INFO - 論文 2506.05340v1 翻譯完成
+2025-06-06 16:48:02,596 - ai_news_updater - INFO - 論文 2506.05341v1 音訊生成完成
+2025-06-06 16:48:05,742 - ai_news_updater - INFO - 論文 2506.05321v1 音訊生成完成
+2025-06-06 16:48:09,857 - ai_news_updater - INFO - 論文 2506.05349v1 音訊生成完成
+2025-06-06 16:48:11,380 - ai_news_updater - INFO - 論文 2506.05344v1 音訊生成完成
+2025-06-06 16:48:14,519 - ai_news_updater - INFO - 論文 2506.05340v1 音訊生成完成
+2025-06-06 16:48:14,525 - ai_news_updater - INFO - 成功匯出到 news.jsonl
+2025-06-06 17:00:01,576 - ai_news_updater - INFO - AI 新聞更新器 v2.0.0 啟動
+2025-06-06 17:03:37,697 - ai_news_updater - INFO - AI 新聞更新器 v2.0.0 啟動
+2025-06-06 17:03:54,455 - ai_news_updater - INFO - AI 新聞更新器 v2.0.0 啟動

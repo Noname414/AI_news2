@@ -1,0 +1,65 @@
+# AI News Updater Configuration
+app:
+  name: "AI News Updater"
+  version: "2.0.0"
+
+# 資料庫設定
+database:
+  url: "sqlite:///news.db"
+  
+# 檔案路徑設定
+paths:
+  audio_dir: "audios"
+  log_dir: "logs"
+  news_jsonl: "news.jsonl"
+
+# arXiv 搜尋設定
+arxiv:
+  queries:
+    - "AI"
+    - "Foundation Model" 
+    - "Diffusion Model"
+    - "Large Language Model"
+    - "Computer Vision"
+  max_results_per_query: 3
+  max_results_total: 50
+  sort_by: "SubmittedDate"
+
+# Gemini API 設定
+gemini:
+  model: "gemini-2.0-flash-001"
+  temperature: 0.7
+  max_output_tokens: 2000
+  max_retries: 3
+  retry_delay: 1.0
+
+# 文字轉語音設定
+tts:
+  language: "zh-tw"
+  slow: false
+  max_retries: 3
+
+# 翻譯提示詞模板
+prompts:
+  translation: |
+    請將以下arXiv論文標題與摘要翻譯成繁體中文，並完成以下任務：
+    1. 將摘要濃縮成適合收聽且簡明扼要的中文摘要（約100-150字）。
+    2. 設想3個「生活化的應用場景」，用簡單易懂的口語描述，讓一般人能理解這項技術的價值。
+    3. 以「向創投或天使基金推銷」的角度，說明這項技術的重要性與潛在商業價值，盡量發揮創意、大膽預測未來可能性。
+
+    英文標題：{title}
+    英文摘要：{summary}
+
+# 並行處理設定
+concurrency:
+  max_workers: 5
+  enable_async: true
+
+# 日誌設定
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_handler: true
+  console_handler: true
+  max_bytes: 10485760  # 10MB
+  backup_count: 5
