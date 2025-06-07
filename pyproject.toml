@@ -1,0 +1,12 @@
+[project]
+name = "ai-news2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arxiv>=2.2.0",
+    "google-genai>=1.19.0",
+    "gtts>=2.5.4",
+    "pydantic>=2.11.5",
+]
