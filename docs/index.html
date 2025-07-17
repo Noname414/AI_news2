@@ -17,29 +17,57 @@
     <div class="header">
         <h1>最新 arXiv AI 論文</h1>
         <div>每小時自動更新，點擊標題可閱讀原文</div>
-        <button id="toggle-all-btn" class="toggle-btn" onclick="toggleAll()">顯示原文</button>
+        <button id="toggle-all-btn" class="toggle-btn">顯示原文</button>
     </div>
 
-    <div id="player-wrapper">
-        <div id="speed-control">
-            <div class="speed-buttons">
-                <span>播放速度：</span>
-                <button class="speed-btn" data-speed="0.75">0.75x</button>
-                <button class="speed-btn" data-speed="1.0">1.0x</button>
-                <button class="speed-btn active" data-speed="1.25">1.25x</button>
-                <button class="speed-btn" data-speed="1.5">1.5x</button>
-                <button class="speed-btn" data-speed="2.0">2.0x</button>
+    <div class="main-layout">
+        <div class="container">
+            <div id="articles-container">
+                <!-- 文章會由 JavaScript 動態載入 -->
+            </div>
+
+            <!-- 分頁導航 -->
+            <div class="pagination-container">
+                <div class="pagination-info">
+                    <span id="pagination-info-text">顯示第 1-20 則論文，共 0 則</span>
+                </div>
+                <div class="pagination-nav">
+                    <button id="prev-btn" class="pagination-btn" disabled>
+                        <span>← 上一頁</span>
+                    </button>
+                    <div id="page-numbers" class="page-numbers">
+                        <!-- 頁碼按鈕會動態生成 -->
+                    </div>
+                    <button id="next-btn" class="pagination-btn">
+                        <span>下一頁 →</span>
+                    </button>
+                </div>
             </div>
         </div>
-        <div id="aplayer"></div>
-    </div>
 
-    <div class="container" id="articles-container">
-        <!-- 文章會由 JavaScript 動態載入 -->
+        <div class="player-sidebar">
+            <div class="player-header">
+                <h3>📻 語音播放器</h3>
+                <p>點擊播放清單中的文章開始收聽</p>
+            </div>
+            <div id="player-wrapper">
+                <div id="speed-control">
+                    <div class="speed-buttons">
+                        <span>播放速度：</span>
+                        <button class="speed-btn" data-speed="0.75">0.75x</button>
+                        <button class="speed-btn active" data-speed="1.0">1.0x</button>
+                        <button class="speed-btn" data-speed="1.25">1.25x</button>
+                        <button class="speed-btn" data-speed="1.5">1.5x</button>
+                        <button class="speed-btn" data-speed="2.0">2.0x</button>
+                    </div>
+                </div>
+                <div id="aplayer"></div>
+            </div>
+        </div>
     </div>
 
     <script src="https://unpkg.com/aplayer/dist/APlayer.min.js"></script>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 
 </html>
